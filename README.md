@@ -1,14 +1,23 @@
-# Bob
+# Max
 
-He's a guy.
-  ----------
+He's my dog.
   
 ## Table of Contents
 
-- [Installation](#Installation)
-  
-## Installation Isntructions
+- [Installation Instructions](#Installation Instructions)
+- [Usage Instructions](#Usage Instructions)
+-
 
-Tap him on the shoulder.
+## Installation Instructions
+
+Apply water, treats and pets
+
+## Usage Instructions
+
+Cuddle and rub ears.
+
+## License Information
+
+![License Icon](https://img.shields.io/badge/license-None-informational.svg)
 
 

@@ -2,6 +2,8 @@
 function generateMarkdown(data) {
   console.log(data);
   return `# ${data.title}
+  
+![License Icon](https://img.shields.io/badge/license-${data.license}-informational.svg)
 
 ${data.description}
   
@@ -9,7 +11,9 @@ ${data.description}
 
 - [Installation Instructions](#Installation Instructions)
 - [Usage Instructions](#Usage Instructions)
--
+- [License Information](#License Information)
+- [Contributing Developers](#Contributing Developers)
+- [Testing Instruction]
 
 ## Installation Instructions
 
@@ -21,9 +25,15 @@ ${data.usage}
 
 ## License Information
 
-![License Icon](https://img.shields.io/badge/license-${data.license}-informational.svg)
+This project is covered under ${data.license} license. ${data.licenseDescription}
 
+## Contributing Developers
 
+${data.contributors}
+
+## Testing Instructions
+
+${data.test}
 `;
 }
 
