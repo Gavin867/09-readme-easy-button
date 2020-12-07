@@ -21,7 +21,9 @@ ${data.usage}
 
 ## License Information
 
-![License](https://img.shields.io/badge/license-${data.license}-informational.svg)
+![License Icon](https://img.shields.io/badge/license-${data.license}-informational.svg)
+
+
 `;
 }
 
