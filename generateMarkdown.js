@@ -9,42 +9,42 @@ ${data.description}
 
 ## Table of Contents
 
-- [Project Location](#project-location)
-- [Installation Instructions](#installation-instructions)
-- [Usage Instructions](#usage-instructions)
-- [License Information](#license-information)
-- [Contributing Developers](#contributing-developers)
-- [Testing Instructions](#testing-instructions)
+- [Location](#location)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+- [Contributors](#contributors)
+- [Point of Contact](#point-of-contact)
+- [License](#license)
 
-## Project Location
+## Location
 
 * [GitHub Repo](https://github.com/${data.username}/${data.title})
 * [Published Site](https://${data.username}.github.io/${data.title})  
 
-## Installation Instructions
+## Installation
 
 ${data.installation}
 
-## Usage Instructions
+## Usage
 
 ${data.usage}
 
-## License Information
-
-This project is covered under a(n) ${data.license} license. ${data.licenseDescription}
-
-## Contributing Developers
-
-${data.contributors}
-
-## Testing Instructions
+## Testing
 
 ${data.test}
 
-## Have questions?
+## Contributing
 
-Feel free to contact ${data.name} (https://github.com/${data.username}) at ${data.email}.
-`;
+${data.contributors}
+
+## Point of Contact
+
+Have questions? Feel free to contact ${data.name} (https://github.com/${data.username}) at ${data.email}.
+
+## License
+
+This project is covered under a(n) ${data.license} license. ${data.licenseDescription}`;
 }
 
 module.exports = generateMarkdown;

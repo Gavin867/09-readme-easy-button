@@ -14,7 +14,7 @@ const theSpanishInquisition = [
         type: 'list',
         name: 'license',
         message: 'What type of license does your project use?',
-        choices:["MIT","Apache2.0","GPL3.0","BSD_3","Open_Source"]
+        choices:["MIT","Apache2.0","GPL3.0","BSD_3","None"]
     },
     {
         type: "input",
