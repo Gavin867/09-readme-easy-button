@@ -46,6 +46,21 @@ const questions = [
         type: "input",
         name: "test",
         message: "What are your testing instructions for this project?"
+    },
+    {
+        type: "input",
+        name: "name",
+        message: "What is your name?"
+    },
+    {
+        type: "input",
+        name: "username",
+        message: "What is your github username? Input is case sensitive."
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "What is a good email for users to reach you with questions?"
     }
 ];
 
