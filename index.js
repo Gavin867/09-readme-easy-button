@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require('fs');
 const util = require('util');
-const generateMarkdown = require("./utils/generateMarkdown");
+const generateMarkdown = require("./generateMarkdown");
 
 // array of questions for user
 const questions = [
@@ -10,12 +10,11 @@ const questions = [
         name: "title",
         message: "What is the title of your project?",
     },
-    // Liscense badge solution on lines 35 to 38 taught to me by alejo-brand (https://github.com/alejo-brand)
     {
         type: 'list',
         name: 'license',
         message: 'What type of license does your project use?',
-        choices:["MIT","Apache2.0","GPL3.0","BSD_3","None"]
+        choices:["MIT","Apache2.0","GPL3.0","BSD_3","Open_Source"]
     },
     {
         type: "input",
