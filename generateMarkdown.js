@@ -5,7 +5,7 @@ function generateMarkdown(data) {
 
   console.log(data);
 
-  let licenseDescription;
+  let licenseDescription; 
 
   if (data.license === "MIT") {
 
