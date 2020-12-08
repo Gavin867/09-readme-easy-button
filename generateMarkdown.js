@@ -50,7 +50,8 @@ function generateMarkdown(data) {
 
  if (data.license === "GPL3.0") {
 
-  licenseDescription =  `${data.name}. ${data.descritpion}
+  licenseDescription = `${data.title}. ${data.description}
+
     Copyright (C) ${data.year}  ${data.name}
 
     This program is free software: you can redistribute it and/or modify
@@ -72,6 +73,7 @@ function generateMarkdown(data) {
   licenseDescription = `BSD 3-Clause License
 
     Copyright (c) ${data.year}, ${data.name}
+    
     All rights reserved.
     
     Redistribution and use in source and binary forms, with or without

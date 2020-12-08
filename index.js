@@ -80,6 +80,8 @@ function generateReadme(fileName, data) {
 
         if (error) throw error;
 
+        console.log("");
+
         console.log("Well that was easy!");
     });
 }
