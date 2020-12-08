@@ -1,12 +1,9 @@
-
-
 // function to generate markdown for README
 function generateMarkdown(data) {
 
   console.log(data);
 
-  let licenseDescription; 
-
+  let licenseDescription;
   if (data.license === "MIT") {
 
     licenseDescription = `MIT License
@@ -32,9 +29,9 @@ function generateMarkdown(data) {
     SOFTWARE.`;
   };
 
-  if (data.license === "Apache2.0"); {
+ if (data.license == "Apache2.0") {
 
-    licenseDescription = `Apache License 2.0
+  licenseDescription = `Apache License 2.0
     
     Copyright ${data.year} ${data.name}
 
@@ -51,9 +48,9 @@ function generateMarkdown(data) {
     limitations under the License.`;
   };
 
-  if (data.license === "GPL3.0"); {
+ if (data.license === "GPL3.0") {
 
-    licenseDescription = `${data.name}. ${data.descritpion}
+  licenseDescription =  `${data.name}. ${data.descritpion}
     Copyright (C) ${data.year}  ${data.name}
 
     This program is free software: you can redistribute it and/or modify
@@ -70,9 +67,9 @@ function generateMarkdown(data) {
     along with this program.  If not, see <https://www.gnu.org/licenses/>.`;
   };
 
-  if (data.license === "BSD_3"); {
+ if (data.license === "BSD_3") {
 
-    licenseDescription = `BSD 3-Clause License
+  licenseDescription = `BSD 3-Clause License
 
     Copyright (c) ${data.year}, ${data.name}
     All rights reserved.
@@ -102,10 +99,10 @@ function generateMarkdown(data) {
     OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
     OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.`;
   };
+  
+ if (data.license === "None") {
 
-  if (data.license === "None"); {
-
-    licenseDescription = `None`;
+    return `None`;
 
   };
 
@@ -118,6 +115,7 @@ ${data.description}
 ## Table of Contents
 
 - [Location](#location)
+- [Demo](#demo)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Testing](#testing)
@@ -130,6 +128,10 @@ ${data.description}
 
 * [GitHub Repo](https://github.com/${data.username}/${data.title})
 * [Published Site](https://${data.username}.github.io/${data.title})  
+
+## Demo
+
+![Demo](${data.demo})
 
 ## Installation
 

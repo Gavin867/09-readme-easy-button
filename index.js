@@ -1,9 +1,6 @@
 const inquirer = require("inquirer");
-
 const fs = require("fs");
-
 const util = require("util");
-
 const generateMarkdown = require("./generateMarkdown");
 
 // array of questions for user
@@ -21,8 +18,18 @@ const interrogate = [
     },
     {
         type: "input",
+        name: "year",
+        message: "What is your project's copyright year?"
+    },
+    {
+        type: "input",
         name: "description",
         message: "What is your project description?"
+    },
+    {
+        type: "input",
+        name: "demo",
+        message: "Copy the link to your demo file and paste by right clicking here:"
     },
     {
         type: "input",
@@ -57,7 +64,7 @@ const interrogate = [
     {
         type: "input",
         name: "username",
-        message: "What is your github username? Input is case sensitive."
+        message: "What is your github username (input is case sensitive)?"
     },
     {
         type: "input",
@@ -73,12 +80,7 @@ function generateReadme(fileName, data) {
 
         if (error) throw error;
 
-        console.log("--------------------------------")
-
-        console.log("Great Success! Very Nice!");
-
-        console.log("--------------------------------")
-
+        console.log("Well that was easy!");
     });
 }
 
