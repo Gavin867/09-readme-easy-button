@@ -1,43 +1,44 @@
-# 04-the-gin-quiz
+# 06-weather-dashboard
   
-![License Icon](https://img.shields.io/badge/license-Apache2.0-informational.svg)
+![License Icon](https://img.shields.io/badge/license-None-informational.svg)
 
-A fun quiz on gin cocktails!
+## Description
+
+Sweet app for check the weather!
+
+## Project Location
+
+*[GitHub Repo](https://github.com/Gavin867/06-weather-dashboard)
+*[Published Site](https://Gavin867.github.io/06-weather-dashboard  
 
 ## Table of Contents
 
-- [Project Location](#project-location)
 - [Installation Instructions](#installation-instructions)
 - [Usage Instructions](#usage-instructions)
 - [License Information](#license-information)
 - [Contributing Developers](#contributing-developers)
 - [Testing Instructions](#testing-instructions)
 
-## Project Location
-
-* [GitHub Repo](https://github.com/Gavin867/04-the-gin-quiz)
-* [Published Site](https://Gavin867.github.io/04-the-gin-quiz)  
-
 ## Installation Instructions
 
-No installation required!
+No installation needed!
 
 ## Usage Instructions
 
-Click buttons!
+Type city name into search bar. The application saves searchs which you can click on later to look up again. Click the clear button to delete all previously saved search terms.
 
 ## License Information
 
-This project is covered under a(n) Apache2.0 license. Don't steal my stuff!
+This project is covered under a(n) None license. Nope!
 
 ## Contributing Developers
 
-Agnes, Agatha, Germaine and Jack.
+Agnes, Agatha, Germaine and Jack...
 
 ## Testing Instructions
 
-Click buttons!
+Click the buttons...
 
 ## Have questions?
 
-Feel free to contact Gavin Calkins (https://github.com/Gavin867) at gavin.calkins@gmail.com.
+Please contact Gavin Calkins (Gavin867) at gavin.calkins@gmail.com.

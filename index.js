@@ -4,7 +4,7 @@ const util = require('util');
 const generateMarkdown = require("./generateMarkdown");
 
 // array of questions for user
-const questions = [
+const theSpanishInquisition = [
     {
         type: "input",
         name: "title",
@@ -70,7 +70,7 @@ function generateReadme(fileName, data) {
         if (error) throw error;
 
         console.log("--------------------------------")
-        console.log("That was easy...");
+        console.log("NOBODY EXPECTS THE SPANISH INQUISITION!!!");
         console.log("--------------------------------")
 
 
@@ -79,9 +79,10 @@ function generateReadme(fileName, data) {
 
 // function to initialize program
 function init() {
-    inquirer.prompt(questions)
+    inquirer.prompt(theSpanishInquisition)
 
         .then(response => {
+
             console.log("Generating readme file...");
 
             console.log(response);
@@ -89,8 +90,6 @@ function init() {
             let data = { ...response }
 
             generateReadme("readme.md", generateMarkdown(data));
-
-
         })
 }
 
