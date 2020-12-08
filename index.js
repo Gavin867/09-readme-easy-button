@@ -59,12 +59,12 @@ const interrogate = [
     {
         type: "input",
         name: "email",
-        message: "What is a good email for users to reach you with questions?"
+        message: "What is a good email for users to reach you with questions?",
     },
     {
         type: "input",
         name: "licenseDescription",
-        message: "Reference https://choosealicense.com/appendix/ for applicable license description. Copy and paste here:"
+        message: "Reference https://choosealicense.com/appendix/ for applicable license description. Type here, do not hit 'enter' until finished:"
     },
 ];
 

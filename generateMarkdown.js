@@ -49,7 +49,7 @@ Have questions? Feel free to contact ${data.name} (https://github.com/${data.use
 
 ## License
 
-This project is covered under a(n) ${data.license} license. ${data.licenseDescription}`;
+${data.licenseDescription}`;
 }
 
 module.exports = generateMarkdown;
