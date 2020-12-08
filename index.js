@@ -1,6 +1,9 @@
 const inquirer = require("inquirer");
+
 const fs = require("fs");
+
 const util = require("util");
+
 const generateMarkdown = require("./generateMarkdown");
 
 // array of questions for user
@@ -61,23 +64,25 @@ const interrogate = [
         name: "email",
         message: "What is a good email for users to reach you with questions?",
     },
-    {
-        type: "input",
-        name: "licenseDescription",
-        message: "Reference https://choosealicense.com/appendix/ for applicable license description. Type here, do not hit 'enter' until finished:"
-    },
+    // {
+    //     type: "input",
+    //     name: "licenseDescription",
+    //     message: "Reference https://choosealicense.com/appendix/ for applicable license description. Type here, do not hit 'enter' until finished:"
+    // },
 ];
 
 // function to write README file
 function generateReadme(fileName, data) {
 
     fs.writeFile(fileName, data, function (error) {
+
         if (error) throw error;
 
         console.log("--------------------------------")
-        console.log("Great Success! Very Nice!");
-        console.log("--------------------------------")
 
+        console.log("Great Success! Very Nice!");
+
+        console.log("--------------------------------")
 
     });
 }
