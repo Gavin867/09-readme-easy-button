@@ -4,7 +4,7 @@ const util = require("util");
 const generateMarkdown = require("./generateMarkdown");
 
 // array of questions for user
-const interrogate = [
+const readmeInformation = [
     {
         type: "input",
         name: "title",
@@ -86,7 +86,7 @@ function generateReadme(fileName, data) {
 
 // function to initialize program
 function init() {
-    inquirer.prompt(interrogate)
+    inquirer.prompt(readmeInformation)
 
         .then(response => {
 
