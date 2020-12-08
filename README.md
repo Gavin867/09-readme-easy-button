@@ -23,7 +23,7 @@ A node module powered markdown generator.
 
 ## Demo
 
-![Demo](https://drive.google.com/file/d/1iBuItoG9b5r1AxZoJnNVV2wGh5XqgHcJ/view)
+![Demo](https://github.com/Gavin867/09-readme-easy-button/blob/main/09-readme-easy-button-demo.mp4)
 
 ## Installation
 
