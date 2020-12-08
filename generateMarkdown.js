@@ -14,6 +14,7 @@ ${data.description}
 - [Usage](#usage)
 - [Testing](#testing)
 - [Contributors](#contributors)
+- [Resources](#resources)
 - [Point of Contact](#point-of-contact)
 - [License](#license)
 
@@ -34,9 +35,13 @@ ${data.usage}
 
 ${data.test}
 
-## Contributing
+## Contributors
 
 ${data.contributors}
+
+## Resources
+
+${data.resources}
 
 ## Point of Contact
 
