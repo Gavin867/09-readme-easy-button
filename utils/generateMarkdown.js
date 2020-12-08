@@ -16,11 +16,11 @@ ${data.description}
 
 ## Table of Contents
 
-- [Installation Instructions](#Installation Instructions)
-- [Usage Instructions](#Usage Instructions)
-- [License Information](#License Information)
-- [Contributing Developers](#Contributing Developers)
-- [Testing Instructions](#Testing Instructions)
+- [Installation Instructions](#installation-instructions)
+- [Usage Instructions](#usage-instructions)
+- [License Information](#license-information)
+- [Contributing Developers](#contributing-developers)
+- [Testing Instructions](#testing-instructions)
 
 ## Installation Instructions
 
