@@ -23,7 +23,9 @@ A node module powered markdown file generator.
 
 ## Demo
 
-![Demo]()
+Click the link below and click either "view raw" or "download" to open the mp4 and view.
+
+Demo mp4: https://github.com/Gavin867/09-readme-easy-button/blob/main/09-readme-easy-button-demo%20(2).mp4
 
 ## Installation
 
