@@ -1,8 +1,8 @@
 # 09-readme-easy-button
   
-![License Icon](https://img.shields.io/badge/license-GPL3.0-informational.svg)
+![License Icon](https://img.shields.io/badge/license-MIT-informational.svg)
 
-A node module powered markdown generator.
+A node module powered markdown file generator.
 
 ## Table of Contents
 
@@ -23,21 +23,19 @@ A node module powered markdown generator.
 
 ## Demo
 
-The mp4 is too large to display, click demo link and then click "view raw" to view.
-
-![Demo](https://github.com/Gavin867/09-readme-easy-button/blob/main/09-readme-easy-button-demo.mp4)
+![Demo]()
 
 ## Installation
 
-1) Git Clone; 2) npm i; 3) Run it.
+User must clone the repository to his or her local machine. Install the node modules by opening the terminal, type "npm init -y", then hitting enter. After the modules are done installing, once again in the terminal, type "npm i", the ‘enter’ to install the package.json.
 
 ## Usage
 
-Use terminal, type 'node index' and follow the prompts.
+When loading is complete, the user can run the program by using the "node index" command in terminal. The user then answers the questions as they appear in the terminal and markdown text will be generated in README.md using the user-provided information.
 
 ## Testing
 
-See usage.
+See installation and usage instructions.
 
 ## Contributors
 
@@ -45,10 +43,7 @@ Gavin Calkins (https://github.com/Gavin867)
 
 ## Resources
 
-- https://shields.io/ 
-- https://choosealicense.com/ 
-- http://www.apache.org/licenses/LICENSE-2.0 
-- https://www.gnu.org/licenses/
+https://shields.io/ ; https://choosealicense.com/ ; http://www.apache.org/licenses/LICENSE-2.0 ; https://www.gnu.org/licenses/
 
 ## Point of Contact
 
@@ -56,19 +51,24 @@ Have questions? Feel free to contact Gavin Calkins (https://github.com/Gavin867)
 
 ## License
 
-09-readme-easy-button. A node module markdown generator.
+MIT License
 
-    Copyright (C) 2020  Gavin Calkins
-
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
-
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
-
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+    Copyright (c) 2020 Gavin Calkins
+    
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
+    
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
+    
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
