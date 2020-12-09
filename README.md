@@ -19,7 +19,6 @@ A node module powered markdown file generator.
 ## Location
 
 * [GitHub Repo](https://github.com/Gavin867/09-readme-easy-button)
-* [Published Site](https://Gavin867.github.io/09-readme-easy-button)  
 
 ## Demo
 
@@ -45,7 +44,10 @@ Gavin Calkins (https://github.com/Gavin867)
 
 ## Resources
 
-https://shields.io/ ; https://choosealicense.com/ ; http://www.apache.org/licenses/LICENSE-2.0 ; https://www.gnu.org/licenses/
+- https://shields.io/ 
+- https://choosealicense.com/ 
+- http://www.apache.org/licenses/LICENSE-2.0
+- https://www.gnu.org/licenses/
 
 ## Point of Contact
 
@@ -53,7 +55,7 @@ Have questions? Feel free to contact Gavin Calkins (https://github.com/Gavin867)
 
 ## License
 
-MIT License
+    MIT License
 
     Copyright (c) 2020 Gavin Calkins
     
