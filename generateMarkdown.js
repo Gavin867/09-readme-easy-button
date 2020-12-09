@@ -6,7 +6,8 @@ function generateMarkdown(data) {
   let licenseDescription;
   if (data.license === "MIT") {
 
-    licenseDescription = `MIT License
+    licenseDescription = `
+    MIT License
 
     Copyright (c) ${data.year} ${data.name}
     
@@ -31,7 +32,8 @@ function generateMarkdown(data) {
 
  if (data.license == "Apache2.0") {
 
-  licenseDescription = `Apache License 2.0
+  licenseDescription = `
+    Apache License 2.0
     
     Copyright ${data.year} ${data.name}
 
@@ -50,7 +52,8 @@ function generateMarkdown(data) {
 
  if (data.license === "GPL3.0") {
 
-  licenseDescription = `${data.title}. ${data.description}
+  licenseDescription = `
+    ${data.title}. ${data.description}
 
     Copyright (C) ${data.year}  ${data.name}
 
@@ -70,7 +73,8 @@ function generateMarkdown(data) {
 
  if (data.license === "BSD_3") {
 
-  licenseDescription = `BSD 3-Clause License
+  licenseDescription = `
+    BSD 3-Clause License
 
     Copyright (c) ${data.year}, ${data.name}
     
@@ -157,7 +161,7 @@ ${data.resources}
 
 ## Point of Contact
 
-Have questions? Feel free to contact ${data.name} (https://github.com/${data.username}) at ${data.email}.
+Have questions? Contact ${data.name} at ${data.email}.
 
 ## License
 
