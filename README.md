@@ -1,4 +1,4 @@
-# 09 The Readme Easy Button
+# The Readme Easy Button
   
 ![License Icon](https://img.shields.io/badge/license-MIT-informational.svg)
 
@@ -25,7 +25,7 @@ A node module powered markdown file generator.
 
 Click the link, then click 'view raw' or download to view demo video.
 
-(https://github.com/Gavin867/09-readme-easy-button/blob/main/09-readme-easy-button-demo.mp4)
+(https://github.com/Gavin867/The_Readme_Easy_Button/blob/main/the-readme-easy-button-demo.mp4)
 
 ## Installation
 
