@@ -3,6 +3,9 @@ const fs = require("fs");
 const util = require("util");
 const generateMarkdown = require("./generateMarkdown");
 
+const OUTPUT_DIR = path.resolve(__dirname, "/output");
+const outputPath = path.join(OUTPUT_DIR, "output-README.md");
+
 // array of questions for user
 const readmeInformation = [
     {
@@ -98,7 +101,7 @@ function init() {
 
             let data = { ...response }
 
-            generateReadme("readme.md", generateMarkdown(data));
+            generateReadme(outputPath, generateMarkdown(data));
         })
 }
 
