@@ -3,9 +3,6 @@ const fs = require("fs");
 const util = require("util");
 const generateMarkdown = require("./generateMarkdown");
 
-const OUTPUT_DIR = path.resolve(__dirname, "/output");
-const outputPath = path.join(OUTPUT_DIR, "output-README.md");
-
 // array of questions for user
 const readmeInformation = [
     {
@@ -76,34 +73,14 @@ const readmeInformation = [
     },
 ];
 
-// function to write README file
-function generateReadme(fileName, data) {
-
-    fs.writeFile(fileName, data, function (error) {
-
-        if (error) throw error;
-
-        console.log("");
-
-        console.log("Well that was easy!");
-    });
-}
-
-// function to initialize program
 function init() {
-    inquirer.prompt(readmeInformation)
 
-        .then(response => {
-
-            console.log("Generating readme file...");
-
-            console.log(response);
-
-            let data = { ...response }
-
-            generateReadme(outputPath, generateMarkdown(data));
-        })
-}
+    inquirer.prompt(readmeInformation).then((response) => {
+      
+        fs.writeFileSync("output-README.md", generateMarkdown(response));
+    
+    });
+  }
 
 // function call to initialize program
 init();
